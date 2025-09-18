@@ -20,7 +20,7 @@ const ContactMe = () => {
               urlOne="tel:+917870465866"
               textOne="Call Me"
               iconTwo="./assets/images/gmail.svg"
-              urlTwo="mailto:chandan2606kr@gmail.com"
+              urlTwo="mailto:chandan.dev.2606@gmail.com"
               textTwo="Send Mail"
             />
             <ContactInfoCard

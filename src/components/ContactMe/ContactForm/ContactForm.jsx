@@ -37,8 +37,8 @@ const ContactForm = () => {
       setLoading(true); // 🔴 Loader start
       emailjs
         .send(
-          "service_maxdy5o",
-          "template_dv8q5gk",
+          "service_6qfp4h8",
+          "template_b8wt4q3",
           formData,
           "AXvy6tok3nFc0nO67"
         )
