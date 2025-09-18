@@ -1,7 +1,7 @@
 import React from "react";
-import "./PersonalProjectsCard.css";
+import "./ProjectsCard.css";
 
-const PersonalProjectsCard = ({ details }) => {
+const ProjectsCard = ({ details }) => {
   return (
     <>
       <div className="project-card">
@@ -15,8 +15,9 @@ const PersonalProjectsCard = ({ details }) => {
           ))}
         </ul>
       </div>
+      <div id="contactme"></div>
     </>
   );
 };
 
-export default PersonalProjectsCard;
+export default ProjectsCard;

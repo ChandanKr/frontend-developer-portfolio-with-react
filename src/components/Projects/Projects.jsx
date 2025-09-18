@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
-import "./PersonalProjects.css";
-import { PERSONAL_PROJECTS } from "../../utils/data";
-import PersonalProjectsCard from "./PersonalProjectsCard/PersonalProjectsCard";
+import "./Projects.css";
+import { PROJECTS } from "../../utils/data";
+import ProjectsCard from "./ProjectsCard/ProjectsCard";
 import Slider from "react-slick";
 import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
 
-const PersonalProjects = () => {
+const Projects = () => {
   const sliderRef = useRef();
 
   const settings = {
@@ -39,7 +39,7 @@ const PersonalProjects = () => {
       <section className="projects-container">
         <div className="projects-heading">
           <div className="projects-line-before"></div>
-          <h5>Personal Projects</h5>
+          <h5>Projects</h5>
         </div>
 
         <div className="projects-content">
@@ -52,8 +52,8 @@ const PersonalProjects = () => {
           </div>
 
           <Slider ref={sliderRef} {...settings}>
-            {PERSONAL_PROJECTS.map((item) => (
-              <PersonalProjectsCard key={item.title} details={item} />
+            {PROJECTS.map((item) => (
+              <ProjectsCard key={item.title} details={item} />
             ))}
           </Slider>
         </div>
@@ -62,4 +62,4 @@ const PersonalProjects = () => {
   );
 };
 
-export default PersonalProjects;
+export default Projects;

@@ -53,14 +53,14 @@ export const EXPERIENCE = [
   },
 ];
 
-export const PROFESSIONAL_PROJECTS = [
+export const PROJECTS = [
   {
     title: "Schneider_E2e_AMS_Project (4 Applications), Mphasis",
     description:
       "Ecommerce Project fulfilling many business requirements through electrical equipment and products.",
-    date: "December 2021 - February 2025",
+    date: "December 2021 - Present",
     responsibilities: [
-      "Integrated backend API's and fetched the data to manipulate the frontend part.",
+      "Integrated backend API’s and fetched the data to manipulate the frontend part.",
       "Worked on filters and pagination to load limited data in the current page.",
       "Development, Defect / Bug Fixing and Unit Testing.",
       "Client Communication and KT for new team members.",
@@ -76,44 +76,6 @@ export const PROFESSIONAL_PROJECTS = [
       "Created concise documentations over confluence, Jira, Ms-Word and Ms-Excel.",
       "Internal and External Discussion for Project specific requirements.",
       "Development, Defect / Bug Fixing and Unit Testing.",
-    ],
-  },
-];
-
-export const PERSONAL_PROJECTS = [
-  {
-    title: "Bank CRM Analysis (Power BI Project), Newton School",
-    description: "Designed interactive dashboards and visual reports to analyze customer churn behavior and segment risk levels, supporting data-driven decision-making in customer retention and upselling.",
-    date: "May 2025 - June 2025",
-    objective: "To explore customer churn patterns based on demographics and credit profiles, identify high-risk segments, and recommend personalized strategies to improve retention and upsell opportunities.",
-    responsibilities: [
-      "Designed dashboards to track churn by demographics and credit score.",
-      "Identified high-risk segments for targeted retention.",
-      "Analyzed product usage and customer value patterns.",
-      "Recommended upsell strategies using customer insights.",
-    ],
-  },
-  {
-    title: "Chinook Music Store Analysis (SQL Project), Newton School",
-    description: "To analyze the Chinook music store database using SQL in order to uncover customer behavior patterns, identify top-performing genres and artists, and generate insights that support targeted marketing and revenue optimization strategies.",
-    date: "March 2025 - April 2025",
-    responsibilities: [
-      "Analyzed customer behavior and revenue trends across global regions.",
-      "Identified Rock as the top-selling genre and high-value customers.",
-      "Explored genre and artist affinities for cross-promotional campaigns.",
-      "Recommended top Rock albums and tailored region-specific strategies.",
-    ],
-  },
-  {
-    title: "IT Ticket Analysis Report (Spreadsheet Project), Newton School",
-    description:
-      "IT Support Ticket Analysis to evaluate agent performance, optimize resolution efficiency, and enhance service quality through data-driven staffing decisions.",
-    date: "Jaunary 2025 - February 2025",
-    responsibilities: [
-      "Analyzed IT support data to drive informed staffing decisions.",
-      "Identified training needs to enhance agent performance.",
-      "Assessed software efficiency to optimize ticket resolution.",
-      "Provided insights to improve overall team productivity and service quality.",
     ],
   },
   {
