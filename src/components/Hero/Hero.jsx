@@ -12,7 +12,12 @@ const Hero = () => {
           </div>
           <h2>Chandan Kumar</h2>
           <p>
-            An experienced Software Engineer with 3+ years in frontend development using ReactJS, JavaScript, HTML, and CSS at Mphasis since December 2021. Skilled in building user-friendly and efficient web applications in Agile teams. Now shifting to Data Analytics, learning tools like Excel, SQL, Python, and Power BI. Looking to use my technical background and growing data skills to support smart, data-based decisions. Open to new roles as a Data Analyst.
+            Frontend Developer with 3.3 years of working experience at Mphasis
+            (Dec 2021 - Feb 2025), specializing in ReactJS, JavaScript, HTML,
+            and CSS. Skilled in creating responsive, user-friendly web
+            applications, optimizing performance, and collaborating in Agile
+            teams to deliver high-quality solutions. Open to new opportunities
+            as a Frontend Developer to create impactful digital experiences.
           </p>
           {/* <p>
             Aspiring Data Analyst | Frontend Software Developer | 3.3 Years of
@@ -24,7 +29,7 @@ const Hero = () => {
         <div className="hero-img">
           <div>
             <div className="tech-icon">
-              <img src="./assets/images/Power-BI-Logo.png" alt="Power-BI-Logo" />
+              <img src="./assets/images/react-logo.png" alt="react-logo" />
             </div>
             <img
               // src="./assets/images/hero-img-red-bg.jpg"
@@ -35,17 +40,17 @@ const Hero = () => {
           </div>
 
           {/* This is for navigation only, please ignore this */}
-          <div id="skillssection"></div> 
+          <div id="skillssection"></div>
 
           <div>
             <div className="tech-icon">
-              <img src="./assets/images/sql-logo.png" alt="sql-logo" />
+              <img src="./assets/images/html-logo.png" alt="html-logo" />
             </div>
             <div className="tech-icon">
-              <img src="./assets/images/spreadsheet-logo.png" alt="spreadsheet-logo" />
+              <img src="./assets/images/css-logo.png" alt="css-logo" />
             </div>
             <div className="tech-icon">
-              <img src="./assets/images/python-logo.png" alt="python-logo" />
+              <img src="./assets/images/js-logo.png" alt="js-logo" />
             </div>
           </div>
         </div>
